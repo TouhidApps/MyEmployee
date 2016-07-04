@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_ascending"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Ascending" />
+        <item
+            android:id="@+id/nav_descending"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Descending" />
+        <item
+            android:id="@+id/nav_department"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Department" />
+        <item
+            android:id="@+id/nav_designation"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Designation" />
+        <item
+            android:id="@+id/nav_district"
+            android:icon="@drawable/ic_menu_send"
+            android:title="District" />
+        <item
+            android:id="@+id/nav_joiningDate"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Joining Date" />
+    </group>
+
+    <!--<item android:title="Communicate">-->
+    <!--<menu>-->
+    <!--<item-->
+    <!--android:id="@+id/nav_share"-->
+    <!--android:icon="@drawable/ic_menu_share"-->
+    <!--android:title="Share" />-->
+    <!--<item-->
+    <!--android:id="@+id/nav_send"-->
+    <!--android:icon="@drawable/ic_menu_send"-->
+    <!--android:title="Send" />-->
+    <!--</menu>-->
+    <!--</item>-->
+
+</menu>

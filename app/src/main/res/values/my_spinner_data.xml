@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="employee_type_array">
+        <item>Employee</item>
+        <item>Admin</item>
+    </string-array>
+
+    <string-array name="enable_disable_array">
+        <item>Enable</item>
+        <item>Disable</item>
+    </string-array>
+
+    <!-- Blank array to remove error while insert blank designation spinner to db-->
+    <string-array name="blank_array">
+        <item>Select</item>
+    </string-array>
+
+</resources>

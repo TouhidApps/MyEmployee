@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!--android:background="@drawable/list_item_gradient_background"-->
+
+    <!-- id is hidden, it is only to get data from database-->
+    <TextView
+        android:id="@+id/textView_list_item_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="0"
+        android:textColor="#632828"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView_list_item_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingLeft="18dp"
+        android:paddingRight="11dp"
+        android:paddingTop="11dp"
+        android:text="Touhid"
+        android:textColor="#be5353"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/textView_list_item_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="11dp"
+        android:paddingLeft="19dp"
+        android:paddingRight="11dp"
+        android:text="01786"
+        android:textColor="#632828"
+        android:textSize="15sp" />
+
+
+
+</LinearLayout>
